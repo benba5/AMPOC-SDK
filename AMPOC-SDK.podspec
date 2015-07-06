@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/benba5/AMPOC-SDK/"
-  s.license      =  { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      =  { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Ben" => "benlbenl5@gmail.com" }
   s.platform     = :ios, "7.0"
   s.source              = { :git => "https://github.com/benba5/AMPOC-SDK.git", :tag => "0.0.1" }
