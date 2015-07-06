@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.author             = { "Ben" => "benlbenl5@gmail.com" }
   s.platform     = :ios, "7.0"
   s.source              = { :git => "https://github.com/benba5/AMPOC-SDK.git", :tag => "0.0.1" }
-  s.source_files        = "PodLibrarySample/Headers/Public/*.h"
-  s.vendored_libraries  = "PodLibrarySample/Libraries/libAMStaticLib.a"
+  s.source_files        = "AMPOC-SDK/Headers/Public/*.h"
+  s.vendored_libraries  = "AMPOC-SDK/Libraries/libStaticLibCocoapod.a"
 end
