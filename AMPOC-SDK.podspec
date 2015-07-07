@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AMPOC-SDK"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "My first test pod."
 
   s.description  = <<-DESC
@@ -16,36 +16,12 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/benba5/AMPOC-SDK/"
-
-
   s.license      =  { :type => "MIT", :file => "LICENSE" }
-
-
-
-
-
   s.author             = { "Ben" => "benlbenl5@gmail.com" }
-
-
-
-
   s.platform     = :ios, "7.0"
-
-  # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the location from where the source should be retrieved.
-  #  Supports git, hg, bzr, svn and HTTP.
-  #
-
-  s.source              = { :git => "https://github.com/benba5/AMPOC-SDK.git", :tag => "0.0.2" }
-
-
- 
-
-
-  s.source_files        = "PodLibrarySample/Headers/Public/*.h"
-  
-  s.vendored_libraries  = "PodLibrarySample/Libraries/libStaticLibCocoapod.a"
+  s.source              = { :git => "https://github.com/benba5/AMPOC-SDK.git", :tag => "0.0.3" }
+  s.source_files        = "SampleLib/Headers/Public/*.h"
+  s.vendored_libraries  = "SampleLig/Libraries/libStaticLibCocoapod.a"
 
 
 
