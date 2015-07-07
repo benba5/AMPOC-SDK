@@ -1,11 +1,9 @@
 
 
 Pod::Spec.new do |s|
-
   s.name         = "AMPOC-SDK"
-  s.version      = "0.0.3"
+  s.version      = "0.0.5"
   s.summary      = "My first test pod."
-
   s.description  = <<-DESC
                    A longer description of AMPOC-SDK in Markdown format.
 
@@ -14,14 +12,13 @@ Pod::Spec.new do |s|
                    * Try to keep it short, snappy and to the point.
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
-
   s.homepage     = "https://github.com/benba5/AMPOC-SDK/"
   s.license      =  { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Ben" => "benlbenl5@gmail.com" }
   s.platform     = :ios, "7.0"
-  s.source              = { :git => "https://github.com/benba5/AMPOC-SDK.git", :tag => "0.0.3" }
-  s.source_files        = "SampleLib/Headers/Public/*.h"
-  s.vendored_libraries  = "SampleLib/Libraries/libStaticLibCocoapod.a"
+  s.source              = { :git => "https://github.com/benba5/AMPOC-SDK.git", :tag => "0.0.5" }
+  s.source_files        = "AMPOC-SDK/Headers/Public/*.h"
+  s.vendored_libraries  = "AMPOC-SDK/Libraries/libStaticLibCocoapod.a"
 
 
 
